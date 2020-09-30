@@ -366,6 +366,8 @@ hr { margin-left: -20%;}
         position: relative;
         min-height: 100vh;
         max-width:50%;
+        margin-left:20px;
+        
     }
     .name {
         min-width: 43%;
@@ -375,23 +377,42 @@ hr { margin-left: -20%;}
     margin-top: 20px;
     color: #7f8fa6;
     font-size: 15px;
-    max-width: 300px;
+    min-width: 500px;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
     }
     .profile h1 {
         font-size: 5em;
         height: 80px;
         margin-top: 90px;
         margin-bottom: 10px;
-        min-width: 180%;
+        min-width: 240%;
+        display: flex;
+        flex-direction: column;
+        display: block;
+    }
+    .menu ul li a{
+       visibility: hidden; 
     }
     .profile p {
         margin-top: 20px;
         color: #7f8fa6;
         font-size: 15px;
+        min-width: 200%;
     }
     .profile h3 {
         font-size: 20px;
-       
+        min-width: 200%;
     }
     .date,.date2,.date1,.job,.year{
         visibility: hidden;
@@ -456,10 +477,13 @@ hr { margin-left: -20%;}
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 600px;
+        min-height: 600px;
     }
     .exp {
-        height: 700px;
+        min-height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     #upd{
         font-size: 23px;
@@ -471,7 +495,7 @@ hr { margin-left: -20%;}
         flex-wrap: wrap;
         z-index: 1000;
     }
-    hr { margin-left: 0%;min-width: 200%;} 
+    hr { margin-left: -20px;min-width: 250%;} 
 } 
 @media(min-width:501px){
     .date,.date2,.date1,.job,.year{
@@ -481,6 +505,9 @@ hr { margin-left: -20%;}
         visibility: visible;
         
     }
+    .menu ul li a{
+        visibility: hidden; 
+     }
     .exp p, .edu p, .work p, .skill p, .interest p {
         font-size: 15px;
         max-width: 450px;
@@ -543,6 +570,9 @@ hr { margin-left: -20%;}
         display: none;
         
     }
+    .menu ul li a{
+        visibility: visible; 
+     }
 .menu{
     min-height:100%;
     display: flex;
