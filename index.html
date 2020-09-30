@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Thu Kyaw</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scroll" >
+            <li class="name"><a href="#">Min Thu Kyaw</a><img src="menu.png" width="50px" height="50px" class="toggle" onclick="toggleMenu()"></li>
+            <div class="hide-menu" >
+                <li><a href="#section1" onclick="toggleMenu()">About</a></li>
+                <li ><a href="#section2" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#section3" onclick="toggleMenu()">education</a></li>
+                <li><a href="#section4" onclick="toggleMenu()">skills</a></li>
+                <li><a href="#section5" onclick="toggleMenu()">interests</a></li>
+            </div>
+        </div>
+        <div class="menu">
+            <img src="profile.jpg" alt="">
+            <ul class="active">       
+                <li><a href="#section1">About</a></li>
+                <li><a href="#section2">Experience</a></li>
+                <li><a href="#section3">education</a></li>
+                <li><a href="#section4">skills</a></li>
+                <li><a href="#section5">interests</a></li>
+            </ul>
+
+        </div>
+        <div class="right-section">
+        <div class="profile" id="section1">
+            <h1>MIN THU KYAW</h1>
+            <h3>south okkalapa · yangon,burma · +959256831429 · <a href="MINTHUKYAW@UIT.EDU.MM">MINTHUKYAW@UIT.EDU.MM</a></h3>
+            <p>I am experienced in building website and mobile apps</p>
+            <ul>
+                <li><a href="#"><img src="github-brands.svg" width="50px" height="50px"></a></li>
+                <li><a href="#"><img src="facebook-brands.svg" ></a></li>
+            </ul>
+            
+    </div>
+        <hr>
+        <div class="exp" id="section2" >
+            <h1>EXPERIENCE</h1>
+            <h2>WEB DEVELOPER<span class="date">Sep 2019 - Present</span></h2>
+            <h3>WELPHAT.COM</h3>
+            <p>A group project from the people of different fields. Working as a web developer and leading the team.</p>
+            <span class="date-hide">Sep 2019 - Present</span>
+            <h2>WEB INSTRUCTOR<span class="date1">Sep 2019 - Present</span></h2>
+            <h3>MOBILE EDUCATION CENTER</h3>
+            <p>Also a web Developer of mobileducenter.org and serve with the IT solution of education center.</p>
+            <span class="date1-hide">Sep 2019 - Present</span>
+            <h2>MOBILE APPLICATION DEVELOPER<span class="job">Freelance</span></h2>
+            <h3>OPEN MYANMAR INITIATIVE</h3>
+            <p>Take responsibility of 2 mobile apps and published them to google play store. One is Ward and Village Tract Admin Law and the another is Voter Education.</p>
+            <span class="job-hide">Freelance</span>
+        </div>
+        <hr>
+        <div class="edu" id="section3">
+            <h1>EDUCATION</h1>
+            <h2>NO 2 . BASIC EDUCATION HIGH SCHOOL , SOUTH OKKALAPA<span class="year">&lt;= 2018</span></h2>
+            
+            <h3 id="upd">PASS MATRICULATION EXAM</h3>
+            <p>Marks - 501</p>
+            <span class="year-hide">&lt;= 2018</span>
+            <h2>UNIVERSITY OF INFORMATION TECHNOLOGY<span class="date2">Dec 2018 - Present</span></h2>
+            <h3>COMPUTER SCIENCE</h3>
+            <span class="date2-hide">Dec 2018 - Present</span>
+            <p></p>
+        </div>
+        <hr>
+        <div class="skill" id="section4">
+            <h1>SKILLS</h1>
+            <h3>PROGRAMMING LANGUAGES & TOOLS</h3>
+            <div class="icon">
+                <img src="html5-brands.svg" width="50px" height="50px">
+                <img src="css3-alt-brands.svg" width="50px" height="50px">
+                <img src="js.svg" width="50px" height="50px">
+                <img src="vuejs-brands.svg" width="50px" height="50px">
+                <img src="php-brands.svg" width="50px" height="50px">
+                <img src="laravel-brands.svg" width="50px" height="50px">
+                <img src="git-brands.svg" width="50px" height="50px">
+                <img src="github-brands.svg" width="50px" height="50px">
+                <img src="npm-brands.svg" width="50px" height="50px">
+            </div>
+        <h3 class="workflow">WORKFLOW</h3>
+        <div class="work">
+            <i class="fa fa-check" aria-hidden="true"></i><p>Mobile-First, Responsive Design</p>
+        </div>
+        <div class="work">
+            <i class="fa fa-check" aria-hidden="true"></i><p>Cross Browser Testing & Debugging</p>
+        </div>
+        <div class="work">
+            <i class="fa fa-check" aria-hidden="true"></i><p>Flutter Mobile App Development</p>
+        </div>
+        <div class="work">
+            <i class="fa fa-check" aria-hidden="true"></i><p>Agile Development</p>
+        </div>
+        <p></p>
+        </div>
+        <hr>
+    <div class="interest" id="section5">
+        <h1>INTERESTS</h1>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the evening, I am an biker and town traveller. During the warmer months here in Yangon, I enjoy planting tree and watering.</p><br>
+        <p>When forced indoors, I follow a number of projects and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the back-end web development world.</p>
+    </div>
+</div>
+<br><br><br><br><br><br><br>
+</div>
+<script>
+    function toggleMenu(){
+        const menutoggle= document.querySelector('.hide-menu')
+        menutoggle.classList.toggle('active');
+       
+    }
+</script>
+
+
+
+
+</body>
+</html>

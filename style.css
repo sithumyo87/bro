@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran&family=Fjalla+One&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran&family=Fjalla+One&family=Josefin+Sans&family=Roboto+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Peddana&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&family=Mitr:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&family=Mitr:wght@400;500&family=Teko:wght@300&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Markazi+Text:wght@700&family=Mitr:wght@400;500&family=Teko:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Markazi+Text:wght@700&family=Mitr:wght@400;500&family=Teko:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.menu{
+width: 270px;
+min-height: 100vh;
+position: fixed;
+top: 0;
+background-color:#c25737;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.menu img{
+    width: 148px;
+    height: 150px;
+    border-style: double;
+    border-radius: 500%;
+    border-width: 7px;
+    border-color:#e77755;
+    background-color:#e77755;
+    margin-top: 50%;
+    margin-bottom: 20px;
+}
+.menu ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.menu ul li a,.scroll a{
+   font-size: 17px;
+   font-weight: 500;
+    text-decoration: none;
+    color: #ffffff81;
+    text-transform: uppercase;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+}
+.right-section{
+    margin-left: 23.5%;
+}
+.profile{
+    margin-top: 13%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    
+    
+}
+.profile h1{
+    font-size: 7em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-weight: 900;
+    word-spacing: 2px;
+    color:#353b48;
+    height: 127px;
+}
+.profile h3 a{
+    color: #c25737;
+}
+.profile h3{
+    font-size: 28px;
+    color: #7f8fa6;
+    font-weight: 100;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+    line-height: 20px;
+}
+.profile p{
+    margin-top: 53px;
+    color: #7f8fa6;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+}
+.profile ul{
+    margin-top: 50px;
+    display: flex;
+}
+.profile ul li{
+    list-style: none;
+}
+.profile ul li img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-bottom: 160px;
+    filter: invert(30%);
+}
+.exp,.edu,.skill,.interest{
+    margin-top: 10%;
+}
+.exp h1,.edu h1,.skill h1,.interest h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -3px;
+    color:#353b48;
+    font-size: 3em;
+    margin-bottom: 50px;
+    
+}
+.exp h2,.edu h2{
+    color:#353b48;
+    font-size: 35px;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif; 
+}
+.exp h3,.edu h3,.skill h3{
+   color: #7f8fa6; 
+   font-size: 27px;
+   font-weight: 100;
+   margin-bottom: 20px;
+   font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.exp p,.edu p,.work p,.skill p,.interest p{
+    margin-bottom: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    width: 820px;
+    color: #7f8fa6;
+    display: flex;
+    
+}
+.date,.date1,.date2,.job,.year{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+}
+.job-hide{
+    visibility: hidden;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.date{
+    margin-left: 65%;
+    color:#c25737;
+    font-size: 18px;
+}
+.date1{
+    margin-left: 64%;
+    color:#c25737;
+    font-size: 18px;
+}
+.job{
+    margin-left: 60%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.date2{
+    margin-left: 46%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.year{
+    margin-left: 43%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    margin-right: 20px;
+    filter: invert(30%);
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.work i{
+    filter: invert(30%);
+}
+.work p,.interest p{
+    margin-bottom: 5px;
+    
+}
+.workflow{
+    margin-top: 20px;     
+}
+hr { margin-left: -20%;}
+
+.menu a:hover{
+    color: #F5F5F5;
+
+}
+
+@media(max-width:1200px){
+    .container{
+        position: relative;
+        min-height: 100vh;
+        min-width:30%;
+    }
+    .name{
+        display: flex;
+        justify-content: space-between;
+        visibility: visible;
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        background-color: #c25737;
+         
+    }
+    .hide-menu{
+        height: 120px;
+        background-color: #c25737;
+        visibility: hidden;
+        
+        
+    }
+    .hide-menu li{
+        list-style: none;
+        
+        background-color: #c25737; 
+    }
+    .hide-menu  li a:hover{
+        color: #F5F5F5;
+       
+    }
+    .hide-menu li a{
+        margin-left: 20px;
+        font-size: 13px;
+        margin-top: 10px;
+        font-weight: 100;
+    }
+    .hide-menu.active{
+        visibility: visible;
+    }
+   
+    .name a{
+        margin-left: 20px;
+        color: white;
+        font-weight: 100;
+        margin-top: 0px;
+    }
+    .scroll{
+       
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+           
+    }
+    
+    div.sticky{
+        width: 65%;
+        background: yellow;
+        position: sticky;
+        padding: 30px;
+        top: 0;
+        position: -webkit-sticky;
+    }
+    .scroll img{
+        width: 20px;
+        height: 20px;
+        
+        margin-top: 15px;
+        margin-right: 30px;
+        filter: invert();
+        cursor: pointer;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .menu img{
+        visibility: hidden;
+    }
+    .right-section {
+    margin-left: 2%;
+    }
+    .profile h1 {
+        font-size: 4em;
+        height: 80px;
+    }
+    .profile h3 {
+        font-size: 20px;
+    }
+    .profile p{
+        margin-top: 20px;
+        color: #7f8fa6;
+        font-size: 13px;
+    }
+    .profile ul li img {
+        width: 40px;
+        margin-bottom: 120px;
+    }
+    .exp h1, .edu h1, .skill h1, .interest h1 {
+        letter-spacing: -3px;
+        color: #353b48;
+        font-size: 2.5em;
+    }
+    .exp h2, .edu h2 {
+        color: #353b48;
+        font-size: 28px;
+    }
+    .exp h3, .edu h3, .skill h3 {
+       
+        font-size: 23px;
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        max-width: 450px;
+    }
+    .year {
+        margin-left: 12%;    
+    }
+    .date2 {
+        margin-left: 15%;
+    }
+    .job {
+        margin-left: 27%;
+    }
+    .date1 {
+        margin-left: 32%;
+    }
+    .date {
+        margin-left: 33%;
+    }
+
+    hr { margin-left: -20%;min-width: 500px;}
+    .active{
+        visibility: visible;
+    } 
+}
+@media(max-width:500px){
+    .container{
+        position: relative;
+        min-height: 100vh;
+        max-width:50%;
+    }
+    .name {
+        min-width: 43%;
+        opacity: 1;
+    }
+    .profile p {
+    margin-top: 20px;
+    color: #7f8fa6;
+    font-size: 15px;
+    max-width: 300px;
+    }
+    .profile h1 {
+        font-size: 5em;
+        height: 80px;
+        margin-top: 90px;
+        margin-bottom: 10px;
+        min-width: 180%;
+    }
+    .profile p {
+        margin-top: 20px;
+        color: #7f8fa6;
+        font-size: 15px;
+    }
+    .profile h3 {
+        font-size: 20px;
+       
+    }
+    .date,.date2,.date1,.job,.year{
+        visibility: hidden;
+    }
+    .job-hide{
+        visibility: visible;
+        
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        min-width: 350px;
+        margin-bottom: 10px;
+    }
+    .date-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .date2-hide{
+        color:#c25737;
+    font-size: 13px;
+    }
+    .date1-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .year-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .job-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+    .exp h2, .edu h2 {
+        color: #353b48;
+        font-size: 28px;
+        margin-top: 30px;
+        min-height: 30px;
+    }
+   
+    .exp h2, .edu h2 {
+        color: #353b48;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        height: 15px;
+        display: flex;
+    flex-direction: column;
+    min-width: 150%;
+    
+    }
+    .edu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 600px;
+    }
+    .exp {
+        height: 700px;
+    }
+    #upd{
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    .icon {
+        display: flex;
+        width: 200%;
+        flex-wrap: wrap;
+        z-index: 1000;
+    }
+    hr { margin-left: 0%;min-width: 200%;} 
+} 
+@media(min-width:501px){
+    .date,.date2,.date1,.job,.year{
+        visibility: hidden;
+    }
+    .job-hide{
+        visibility: visible;
+        
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        max-width: 450px;
+    }
+    .date-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .date2-hide{
+        color:#c25737;
+    font-size: 13px;
+    }
+    .date1-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .year-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .job-hide{
+        color:#c25737;
+    font-size: 13px;
+    margin-bottom: 60px;
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+    .exp h2, .edu h2 {
+        color: #353b48;
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    .exp {
+        height: 800px;
+    }
+    .edu{
+        height: 500px;
+    }
+    .skill{
+        height: 460px;
+    }
+    .exp p, .edu p, .work p, .skill p, .interest p {
+        font-size: 15px;
+        max-width: 800px;
+        margin-bottom: 10px;
+    } 
+     hr { margin-left: -20%;min-width: 80%;}
+}
+@media(min-width:1201px){
+    .date,.date2,.date1,.job,.year{
+        visibility: visible;
+    }
+    .job-hide,.date-hide,.date2-hide,.year-hide,.date1-hide{
+        display: none;
+        
+    }
+.menu{
+    min-height:100%;
+    display: flex;
+}
+.hide-menu{
+    display: none;
+}
+.profile{
+    margin-top: 13%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    
+    
+}
+.profile h1{
+    font-size: 7em;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-weight: 900;
+    word-spacing: 2px;
+    color:#353b48;
+    height: 127px;
+}
+.profile h3 a{
+    color: #c25737;
+}
+.profile h3{
+    font-size: 28px;
+    color: #7f8fa6;
+    font-weight: 100;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+    line-height: 20px;
+}
+.profile p{
+    margin-top: 53px;
+    color: #7f8fa6;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+}
+.profile ul li{
+    list-style: none;
+}
+.profile ul li img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    margin-right: 30px;
+    margin-bottom: 160px;
+    filter: invert(30%);
+}
+.exp,.edu,.skill,.interest{
+    margin-top: 10%;
+}
+.exp h1,.edu h1,.skill h1,.interest h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -3px;
+    color:#353b48;
+    font-size: 3em;
+    margin-bottom: 50px;
+    
+}
+.exp h2,.edu h2{
+    color:#353b48;
+    font-size: 35px;
+    font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif; 
+}
+.exp h3,.edu h3,.skill h3{
+   color: #7f8fa6; 
+   font-size: 27px;
+   font-weight: 100;
+   margin-bottom: 20px;
+   font-family: 'Markazi Text', serif;
+    font-family: 'Mitr', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.exp p,.edu p,.work p,.skill p,.interest p{
+    margin-bottom: 100px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    min-width: 820px;
+    color: #7f8fa6;
+    display: flex;
+    
+}
+.date,.date1,.date2,.job,.year{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+}
+.job-hide{
+    visibility: hidden;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .exp{
+      height:800px;
+  }
+  .edu{
+      height:700px;
+  }
+.date{
+    margin-left: 65%;
+    color:#c25737;
+    font-size: 18px;
+}
+.date1{
+    margin-left: 65%;
+    color:#c25737;
+    font-size: 18px;
+}
+.job{
+    margin-left: 58%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.date2{
+    margin-left:45%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.year{
+    margin-left: 39%;
+    color:#c25737;
+    font-size: 18px;
+
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    margin-right: 20px;
+    filter: invert(30%);
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+.work i{
+    filter: invert(30%);
+}
+.work p,.interest p{
+    margin-bottom: 5px;
+    
+}
+.workflow{
+    margin-top: 20px;     
+}
+hr {
+    margin-left: -20%;
+    min-width: 55%;
+}
+
+.menu a:hover,a:focus{
+    color: #F5F5F5;
+
+}
+}
